@@ -14,3 +14,23 @@ run_speed = 6;
 jump_speed = -10;
 climb_speed = 4;
 gravity_amount = 0.8;
+
+/// @DnDAction : YoYo Games.Instance Variables.Set_Score
+/// @DnDVersion : 1
+/// @DnDHash : 74C8135D
+
+__dnd_score = real(0);
+
+/// @DnDAction : YoYo Games.Instance Variables.Set_Health
+/// @DnDVersion : 1
+/// @DnDHash : 3CE21224
+/// @DnDArgument : "health" "100"
+
+__dnd_health = real(100);
+
+/// @DnDAction : YoYo Games.Instance Variables.Set_Lives
+/// @DnDVersion : 1
+/// @DnDHash : 0D6CC738
+/// @DnDArgument : "lives" "3"
+
+__dnd_lives = real(3);
