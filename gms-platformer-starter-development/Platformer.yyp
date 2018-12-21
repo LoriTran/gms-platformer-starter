@@ -42,7 +42,7 @@
             "Key": "130f60bc-165d-4e76-add3-33ee1bf8b3fc",
             "Value": {
                 "id": "1aeb3102-17a9-491b-a85d-3be25007bc08",
-                "resourcePath": "objects\\obj_hud\\obj_hud.yy",
+                "resourcePath": "objects\\obj_HUD\\obj_HUD.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -236,6 +236,14 @@
                 "id": "70b46a15-f7f4-4b1e-b70d-3f14a2ece2ba",
                 "resourcePath": "objects\\obj_death\\obj_death.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ac679b6c-5a40-402a-9e79-4c5829789702",
+            "Value": {
+                "id": "afc7aca1-eb79-41f9-a142-26628a087b81",
+                "resourcePath": "rooms\\rm_2\\rm_2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
