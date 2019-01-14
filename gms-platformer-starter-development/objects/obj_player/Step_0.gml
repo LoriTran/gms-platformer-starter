@@ -1,3 +1,19 @@
+/// @DnDAction : YoYo Games.Instance Variables.If_Health
+/// @DnDVersion : 1
+/// @DnDHash : 4AA41251
+/// @DnDArgument : "op" "3"
+if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
+if(__dnd_health <= 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Change_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 572B90FE
+	/// @DnDParent : 4AA41251
+	/// @DnDArgument : "objind" "obj_player_die"
+	/// @DnDSaveInfo : "objind" "2d8701c4-d8ac-4877-80c2-22beb3896b05"
+	instance_change(obj_player_die, true);
+}
+
 /// @DnDAction : YoYo Games.Instance Variables.Set_Health
 /// @DnDVersion : 1
 /// @DnDHash : 52429B69
